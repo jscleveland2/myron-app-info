@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Privacy policy for Myron Career Agent's personal, read-only Gmail metadata connection.">
+<title>Privacy Policy — Myron Career Agent</title>
+<style>:root{color-scheme:light;--ink:#152438;--muted:#4e6075;--line:#dbe4ee;--accent:#1c5c91}*{box-sizing:border-box}body{margin:0;background:#f5f7fa;color:var(--ink);font:17px/1.65 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}header,main,footer{max-width:860px;margin:auto;padding:24px}header{padding-top:44px;border-bottom:1px solid var(--line)}nav{display:flex;gap:24px;flex-wrap:wrap}a{color:var(--accent);text-underline-offset:3px}a:focus-visible{outline:3px solid var(--accent);outline-offset:5px}main{padding-top:36px;padding-bottom:40px}h1{font-size:clamp(2rem,6vw,3rem);line-height:1.15;letter-spacing:-.035em;margin:0 0 20px}h2{font-size:1.25rem;line-height:1.3;margin-top:36px}.eyebrow{font-size:.8rem;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-weight:650}.lead{font-size:1.15rem;color:var(--muted)}.panel{background:white;border:1px solid var(--line);border-radius:12px;padding:24px;margin:28px 0}.panel h2:first-child{margin-top:0}footer{border-top:1px solid var(--line);font-size:.9rem;color:var(--muted)}code{font-size:.9em;overflow-wrap:anywhere}li+li{margin-top:8px}@media(max-width:480px){header,main,footer{padding-left:20px;padding-right:20px}.panel{padding:20px}}</style>
+</head>
+<body>
+<header><nav aria-label="Main navigation"><a href="./">Myron Career Agent</a><a href="privacy.html" aria-current="page">Privacy policy</a></nav></header>
+<main>
+<p class="eyebrow">Data handling</p>
+<h1>Privacy policy</h1>
+<p class="lead">Myron Career Agent<br>Effective date: October 5, 2026</p>
+<p>Myron Career Agent is a personal career research application operated by Jamin Cleveland. This policy describes the current Gmail connection and this public information website. The application is for its owner's use and does not provide public account registration.</p>
+<h2>Google account access</h2>
+<p>The application uses Google OAuth to obtain the owner's explicit consent for <code>https://www.googleapis.com/auth/gmail.readonly</code>. This permission permits read access to Gmail. The current utility confirms the connected email address and reads a bounded sample of career-related message metadata.</p>
+<p>The owner enters account credentials only through Google's authorization flow. The application does not collect or store the owner's Google password. It stores OAuth access and refresh tokens so it can access the authorized mailbox and refresh authorization without requesting the password.</p>
+<h2>Information accessed and stored</h2>
+<p>The current Gmail utility processes the connected email address, message and thread identifiers, internal message timestamps, and selected headers: From, To, Subject, Date, and Message-ID. Its saved sample also includes the search query and retrieval time. These headers may contain information about email correspondents.</p>
+<p>The current utility does not retrieve message bodies, attachments, or snippets. It does not send, delete, or archive email, or modify mailbox labels. The read-only permission covers the mailbox; the application's search query limits the sample it actually retrieves.</p>
+<h2>Purpose and use</h2>
+<p>Gmail information is used to confirm the connection and identify career-related correspondence for the owner's job search. Retrieved metadata is treated as untrusted evidence and does not authorize external communications or change decision policies.</p>
+<p>Google user data is not sold, used for advertising, used for surveillance, or used to train generalized AI or machine-learning models. The current Gmail utility does not transfer retrieved email data to external AI services or publish it on this website.</p>
+<h2>Storage and access controls</h2>
+<p>OAuth credentials and retrieved metadata are stored on the owner's server in directories with restricted operating-system permissions. They are kept outside the application source repository and are not included in the public website repository. Connections to Google's API use HTTPS.</p>
+<p>The application's infrastructure providers process data as needed to host and operate the owner's server. Application data is intended for the owner and any operator he explicitly authorizes for maintenance. The utility's public status output excludes credentials and email headers.</p>
+<h2>Retention and deletion</h2>
+<p>The current utility replaces its bounded metadata sample on each successful ingestion run; it does not maintain an append-only archive of retrieved messages. Saved credentials remain until the owner removes them. There is no automatic time-based deletion in this version.</p>
+<p>The owner can stop the application, revoke its Google access, and delete saved OAuth credentials and metadata from the server. Any separately created copies or infrastructure backups must also be deleted to remove retained copies. Revoking authorization prevents future access but does not itself erase previously saved data.</p>
+<h2>Revoke access</h2>
+<p>The owner can revoke Myron Career Agent's access through <a href="https://myaccount.google.com/connections">Google Account third-party connections</a>. Further use then requires new authorization.</p>
+<h2>Public website</h2>
+<p>This website contains application information and this policy. It has no sign-in form, Gmail connection endpoint, analytics scripts, advertising, or tracking cookies added by the application operator. It is hosted on GitHub Pages. GitHub logs visitor IP addresses for security purposes, as described in <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection">GitHub's Pages documentation</a> and <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub's privacy statement</a>.</p>
+<h2>Google API policy</h2>
+<p>Myron Career Agent's use and transfer of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+<h2>Changes</h2>
+<p>This policy will be updated before the application expands the types of Gmail data it processes or introduces new uses or disclosures. Any new permissions or data uses requiring consent will be presented to the owner before being enabled.</p>
+<h2>Contact</h2>
+<p>For privacy questions or deletion assistance, contact Jamin Cleveland at <a href="mailto:jscleveland@gmail.com">jscleveland@gmail.com</a>.</p>
+</main>
+<footer><p><a href="./">Myron Career Agent</a> · Privacy policy · Updated October 5, 2026</p></footer>
+</body>
+</html>
